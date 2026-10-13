@@ -9,7 +9,7 @@ build = "src/build.rs"
 
 [dependencies]
 cgi = "0.6"
-git2 = "0.16"
+git2 = "0.20"
 querystring = "1.1.0"
 multimap = "0.8.3"
 die = "0.2.0"
@@ -22,7 +22,7 @@ memoize = "0.3.1"
 glob = "0.3.0"
 clap = { version = "4.0.32", features = ["derive"] }
 file-lock = "2.1.6"
-capnp = "0.21.*"
+capnp = "0.24.*"
 anyhow = "1.0.71"
 chrono = "0.4.26"
 memmap = "0.7.0"
